@@ -20,7 +20,6 @@
     "url": "https://github.com/adammertel/Leaflet.RegularGridCluster/issues"
   },
   "homepage": "https://github.com/adammertel/Leaflet.RegularGridCluster#readme",
-  "devDependencies": {},
   "scripts": {
     "jshint": "jshint src",
     "banners": "run-s banner-js-src banner-js",
@@ -32,7 +31,7 @@
     "build": "run-s jshint babel minify banners",
     "start": "run-p onchange build"
   },
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-minify-mangle-names": "^0.4.0",
     "babel-plugin-transform-remove-console": "^6.9.1",
@@ -42,5 +41,6 @@
     "jshint": "^2.9.5",
     "npm-run-all": "^4.1.2",
     "onchange": "^3.3.0"
-  }
+  },
+  "dependencies": {}
 }
